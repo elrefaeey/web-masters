@@ -1,0 +1,735 @@
+*{
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+    scroll-behavior: smooth;
+}
+.top {
+    background-color: #00a98f;
+  position:fixed;
+  z-index:999;
+    color: white;
+    padding: 16px 150px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 115px;
+    padding-right: 100px;
+}
+ .logo img {
+    height: 54px;
+    width:157px;
+    margin left: 100px;
+}
+.bar {
+    display: flex;
+    gap: 8px;
+}
+ .bar a {
+    color: white;
+    size:18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.7s;
+}
+.bar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.call {
+    text-align:right;
+}
+.call p1 {
+    margin: 0;
+    text-align: left;
+    margin-left: 70px;
+}
+.pro {
+    display: flex;
+    align-items: center;
+    width:332.83px;
+    height:24.77px;
+    padding-top:100px;
+    padding-left:100px;
+}
+
+.num {
+    font-size: 20px;
+  font-weight:400;
+    margin: 0 10px;
+  color:white;
+}
+
+.baar {
+    position: relative;
+    width: 200px;
+    height: 4px;
+    background-color: #575757;
+  
+}
+
+.gress {
+    position: absolute;
+    width: 89.01px;
+    height: 100%;
+    background-color: #fff;
+}
+.first {
+  background-image:  url("https://github.com/elrefaeey/web-masters/blob/main/pics/solar-panels-meadow%201.png?raw=true");
+    background-size: cover;
+    width:100%;
+    background-position: center;
+    color:white;
+    text-align:left;
+    Height:650px;
+    padding: 100px 20px;
+}
+.first h1 {
+    font-size: 52px;
+    margin-bottom: 30px;
+    margin-left:100px;
+    width: 729px;
+    position: 130px;
+    margin-top:110px;   
+}
+.first p {
+    font-size: 20px;
+    margin-left: 100px; 
+    width: 650px;
+}
+.buttons {
+    display: flex;
+    margin-left: 100px;
+    gap: 10px;
+    margin-top:40px;
+}
+.button {
+    display: inline-block;
+    padding:12px 34px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    Width:208px;
+    Height:41px;
+}
+.button-green {
+    background-color: #3CAB90;
+    color: white;
+    left: 100px;
+}
+.button-yellow {
+    background-color: #FFBB1C;
+    color: black;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cor {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.Second {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+.text {
+    flex: 1;
+    margin-right: 20px;    
+}
+.text h2 {
+    margin-left: 100px;
+  margin-bottom:40px;
+    font-size: 42px;
+    width:594px;
+    color: #101828;  
+}
+.text p {
+    margin-left: 100px;
+    font-size: 16px;
+    width:594px;
+    color: #475467;
+    line-height: 24px;
+    Height:144px;    
+}
+.img50{
+  width:469px;
+  height:552px; 
+}
+.tree {
+    list-style: none;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+.tree li {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0; 
+}
+.tree li span {
+    color: #84BD3A;
+    font-weight: bold;
+}
+.sh{
+  width:266px;
+  height:208px;
+  margin-top:300px;
+  margin-left:700px;
+  background-color:#FFBB1C;
+  position:absolute;
+  padding:24px 30px 24px 30px;
+  border-radius:12px;
+}
+.ssa{
+  width:206px;
+  height:42px;
+  font-weight:400;
+  font-size:18px;
+  color:#2A3334;
+  padding-top:100px;
+}
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+.image-content img {
+    image-size:100px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.third {
+    display: flex;
+}
+.power {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    background-image:          url("https://github.com/elrefaeey/web-masters/blob/main/pics/8116%201.png?raw=true");
+    height:505px;
+    background-size: cover;
+}
+.pow {
+    flex: 1;
+    text-align: left;
+    margin-left:100px;
+}
+.pow h2 {
+    font-size: 42px;
+    color: white;
+    width:678px;
+  
+}
+.pow p {
+    font-size: 20px;
+    color: white;
+    line-height: 28px;
+    width:678px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 34px;
+    margin: 20px 0;
+    background-color: #FFBB1C;
+    color: black;
+    border-radius: 109px;
+    text-decoration: none;
+}
+
+
+
+.kits {
+    margin: auto;
+    margin-left:100px;
+    margin-right:100px;
+   
+}
+.solar {
+    padding: 50px 0;
+    text-align: center;
+}
+.solar h2 {
+    font-size: 42px;
+    color: #101828;
+    margin-bottom: 30px;
+   
+}
+.solar p1 {
+    font-size: 16px;
+    color: #475467;
+    Width:936px;
+    Height:48px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.frame:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.frame {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px 0px     #0000000D;
+    overflow: hidden;
+    flex: 1;
+    margin: 20px;
+    max-width: 32%;
+    text-align: left;
+  }
+
+.frame img {
+    width: 100%;
+    height: auto;
+}
+.frame h3 {
+    font-size:20px;
+    color: #101828;
+    margin: 24px;
+}
+
+.frame p {
+    font-size: 16px;
+    color: #475467;
+    margin: 0 24px 24px;
+    line-height: 1.6;
+    width:350px;
+}
+.frame .btn {
+    display: inline-block;
+    margin: 0 20px 8px;
+    padding: 10px 5px;
+    background-color: white;
+    color: #3CAB90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.repairs { 
+    text-align: center;
+    padding:44px 0;
+    height:505px;
+    position: relative;
+  background-image:url("https://github.com/elrefaeey/web-masters/blob/main/pics/8116%201%20(1).png?raw=true");
+       background-size: cover;
+       align-content: center;
+}
+.Fifth {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 44px;
+    border-radius: 12px;
+    display: inline-block;
+}
+.repairs h2 {
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top:20px;
+    width:770px;
+    text-align: center;
+}
+.repairs p {
+    font-size: 20px;
+    color: #ffffff;
+    width: 770px;
+    margin: 0 auto;
+      line-height:28px;
+      text-align: left;
+      text-indent:20px;
+}
+.ene {
+    margin: 0 auto;
+    padding: 100px;
+  display: flex;
+  background-color:rgba(255, 187, 28, 0.05);
+}
+.rgy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.rgy h2 {
+    font-size:39px;
+    margin-top:30px;
+    color: #99999;
+    margin-bottom: 20px;
+    width:358.67px;
+}
+.rgy p {
+    font-size: 1em;
+    color: #666666;
+    line-height: 1.5;
+    max-width: 350px;
+}
+
+.products {
+    gap: 20px;
+    width:400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product-card {
+    background-color: #FFFFF0;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    color: #223344;
+    margin-bottom: 10px;
+    width:300px;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width:200px;
+}
+
+.product-card a1 {
+    font-size: 0.9em;
+    color: #666666;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration-line: underline;
+}
+
+.product-card a {
+    font-size: 0.9em;
+    color: #00a98f;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.product-card .image-placeholder {
+    width: 100%;
+    height: 100px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+  
+  
+
+
+
+.tainer h1{
+    width: 1200px;
+    margin-left:100px;
+    text-align: center;
+
+}
+.tainer p { 
+  
+    text-align: center;
+}
+.values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+      margin-left:100px;
+      margin-right:100px;
+
+
+}
+.value-card {
+    background-color: #e8f5e9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+.customer-care {
+    background-color: #F5FBF9 ; 
+}
+.price {
+    background-color: #F5FBF9 ;
+}
+.sustainability {
+    background-color: #F5FBF9 ;
+}
+.value-card h3 {
+    color: #99999;
+    margin-bottom: 15px;
+}
+.value-card p {
+    color: #999999;
+    font-size: 16px;
+    text-align	:left;
+    width:300px;
+}
+.icon {
+    font-size: 30px;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.section {
+    max-width: 1,440px;
+    gap:32px;
+    display:flex;
+  justify-content: center;
+  flex-direction:row;
+  padding:80px 150px 80px 150px;
+}
+
+.test {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.test h2 {
+    font-size: 48px; 
+     Width:400px;
+    color: #1C1C1C;
+    margin-top: 60px;
+}
+.test p {
+    font-size: 18px;
+    color: #1C1C1C;
+    Width:400px;
+  margin-top: 40px;
+}
+
+
+.what {
+    background-color: rgba(60, 171, 144, 0.06);
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+
+  
+}
+.say {
+    width: 516px;
+  
+}
+.say h3 {
+    font-size: 16px;
+    color: #3CAB90;
+    margin-bottom: 60px;
+  
+}
+
+.say p {
+    font-size: 24px;
+    color: #101828;
+    margin-bottom: 20px;
+}
+.circle1 {
+margin-left:450px;
+  height: 8px;
+  width: 8px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  display: inline-block;
+}
+.circle {
+  height: 8px;
+  width: 8px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  display: inline-block;
+}
+.hor {
+    display: flex;
+    align-items: center;
+  
+}
+
+.hor img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.hor h4 {
+    font-size: 16px;
+    color: #1C1C1C;
+    margin: 0;
+}
+
+.hor p {
+    font-size: 16px;
+    color: #1C1C1C;
+    margin: 0;
+}
+.opps{
+    margin-left:350px;
+
+}
+.icn button {
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2em;
+    color: #666;
+    cursor: pointer;
+}
+
+.icn button:hover {
+    border-color: #4CAF50;
+    color: #4CAF50;
+  
+}
+
+
+
+
+footer {
+    background-color: #283646;
+    padding: 80px 150px 80px 150px;
+    height:412px;
+}
+
+.ten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lef{
+    display: flex;
+    align-items: center;
+}
+
+.lef .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.lef nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.lef nav a:hover {
+    text-decoration: underline;
+}
+
+
+.right-section {
+    text-align: left;
+}
+
+.right-section p {
+      color: white;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  
+}
+
+.right-section form {
+    display: flex;
+    align-items: center;
+}
+
+.right-section input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.right-section input[type="email"] {
+    width:259px;
+    height:48px;
+    padding:12px 34px 12px 34px;
+    background-color: #283646;
+    color:white;
+    border: solid #B3BDC7 1px;
+    border-radius: 38px;
+}
+
+.right-section button {
+  width:147px;
+  height:48px;
+    padding:12px 34px 12px 34px;
+    background-color: #FFBB1C;
+    color:white;
+    border: none;
+    border-radius: 109px;
+    cursor: pointer;
+  transition: background-color 0.3s;
+}
+.right-section button:hover {
+    background-color: #e67e22;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #34495e;
+    margin-top: 20px;
+    font-size: 12px; 
+}
+.footer-bottom nav a {
+    color: #92989F;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.footer-bottom nav a:hover {
+    text-decoration: underline;
+}
+.footer-bottom p {
+    margin: 0;
+  color: #92989F;
+}
