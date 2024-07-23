@@ -1,0 +1,18 @@
+public class MaxArray {
+
+    public static int findMax(int[] numbers) {
+        int max = numbers[0];
+        for (int number : numbers) {
+            if (number > max) {
+                max = number;
+            }
+        }
+        return max;
+    }
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        int result = findMax(numbers);
+        System.out.println(result);
+    }
+}
